@@ -14,13 +14,17 @@ function create2DArray(rows, columns){
 }
 
 function display(arr){
+    const original = document.getElementById('original')
     for (let i = 0; i < arr.length; i++){
         console.log(arr[i].join('  '))
+        original.innerHTML += arr[i].join(' ') + '<br>'
     }
 }
 function displayReverse(arr){
+    const reverse = document.getElementById('reverse')
     for (let i = arr.length - 1; i >= 0; i--){
         console.log(arr[i].reverse().join('  '))
+        reverse.innerHTML += arr[i].join(' ') + '<br>'
     }
 }
 
