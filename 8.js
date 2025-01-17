@@ -1,6 +1,6 @@
 // Functions and Scope:
 
-//Q8: Write a function that calculates the factorial of a given number.
+// Q8: Write a function that calculates the factorial of a given number.
 
 const calcFactorial = (num) =>{
     if(num === 0 || num === 1){
